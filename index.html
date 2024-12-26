@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Store</div>
+        <div class="cart">
+            <span class="cart-icon">🛒</span>
+            <span id="cart-count">0</span>
+            <span>Items</span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="products">
+            <div class="product-card" data-id="1">
+                <img src="download (1).jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$25.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-id="2">
+                <img src="shoes 32.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$50.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-id="3">
+                <img src="shoes.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$35.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-id="4">
+                <img src="shoes3.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>$40.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- Cart Popup -->
+        <div id="cart-popup" class="cart-popup">
+            <div class="cart-details">
+                <h3>Your Cart</h3>
+                <ul id="cart-list"></ul>
+                <div class="total">
+                    <p>Total: $<span id="total-price">0.00</span></p>
+                    <button id="checkout-btn">Checkout</button>
+                </div>
+                <button id="close-cart">Close</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Modern Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+     
